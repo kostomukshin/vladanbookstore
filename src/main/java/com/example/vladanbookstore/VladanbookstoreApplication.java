@@ -40,8 +40,8 @@ public class VladanbookstoreApplication {
 			System.out.println("Save users");
 			User user1 = new User("user", "$2a$10$T9IxNoU4Jomn5Jstiw1wQunbFXHGF2THC59.x65lz3uM0OUqw0wE.", "polo@mail.com", "USER");
 			User user2 = new User("admin", "$2a$10$j58sIUb0pJpQseshxnfPsu2B13/RYEzVzGZb5K0W6xP8g9cfOfBmq", "kosto@mail.com", "ADMIN");
-			urepository.save(user1);
-			urepository.save(user2);
+			//urepository.save(user1);
+			//urepository.save(user2);
 			
 			
 			System.out.println("Fetch all books");
