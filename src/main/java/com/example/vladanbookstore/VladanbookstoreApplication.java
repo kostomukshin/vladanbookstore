@@ -39,7 +39,7 @@ public class VladanbookstoreApplication {
 			
 			System.out.println("Save users");
 			User user1 = new User("polo", "$2a$12$q1mTAjpE5P8ZViJicFUSjeYkaonrD.z4pXTKzAs8isVArsGKdaWCC", "polo@mail.com", "USER");
-			User user2 = new User("kosto", "$2a$12$nG6yvvx4SHk7VBH9tLcaDeAu0Qz/Z5jwDzuXIle3a.YR45.p1ILAW", "kosto@mail.com", "USER");
+			User user2 = new User("kosto", "$2a$12$nG6yvvx4SHk7VBH9tLcaDeAu0Qz/Z5jwDzuXIle3a.YR45.p1ILAW", "kosto@mail.com", "ADMIN");
 			urepository.save(user1);
 			urepository.save(user2);
 			
