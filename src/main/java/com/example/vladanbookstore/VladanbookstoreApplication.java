@@ -38,8 +38,8 @@ public class VladanbookstoreApplication {
 			repository.save(new Book("Hard To Be A God", "Arkady & Boris Strugatsky", 1964, "978-14523-52612", 15.00, crepository.findByName("Science Fiction").get(0)));
 			
 			System.out.println("Save users");
-			User user1 = new User("polo", "$2a$12$q1mTAjpE5P8ZViJicFUSjeYkaonrD.z4pXTKzAs8isVArsGKdaWCC", "polo@mail.com", "USER");
-			User user2 = new User("kosto", "$2a$12$nG6yvvx4SHk7VBH9tLcaDeAu0Qz/Z5jwDzuXIle3a.YR45.p1ILAW", "kosto@mail.com", "ADMIN");
+			User user1 = new User("user", "$2a$10$T9IxNoU4Jomn5Jstiw1wQunbFXHGF2THC59.x65lz3uM0OUqw0wE.", "polo@mail.com", "USER");
+			User user2 = new User("admin", "$2a$10$j58sIUb0pJpQseshxnfPsu2B13/RYEzVzGZb5K0W6xP8g9cfOfBmq", "kosto@mail.com", "ADMIN");
 			urepository.save(user1);
 			urepository.save(user2);
 			
